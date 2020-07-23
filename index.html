@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Vienna</title>
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="./lib/favicon-16x16.png"> -->
+    <link href="./index.css" rel="stylesheet" type="text/css" />
+    <!-- <script type="text/javascript" src="lib/paper-full.js"></script> -->
+    <script type="text/javascript" src="./lib/hotkeys.js"></script>
+
+    <script type='module' src="./indexMain.js"></script>
+  </head>
+  <body>
+    <canvas id="left-wave-form-canvas" width="720" height="360" style='background-color:black;'></canvas>
+    <div id='video-control'>
+      <button id='play-from-start'>Go to the start (0)</button>
+      <button id='play-from-start'>Go to previous start (p)</button>
+      <button id='play-from-start'>Go to next start (n)</button>
+      <button id='play-video'>Play/Pause (space)</button>
+    </div>
+    <div id='annos-control'>
+      <button id='microphone-record'>Start/Stop Recording (enter)</button>
+      <button >Replay last 4 seconds and then record (\)</button>
+    </div>
+    <div id='microphone-recordings'>
+    </div>
+    <div>
+      <input id='audio-file-input' type="file" accept="audio/webm"/>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+#audio-file-input {
+  position: fixed;
+  bottom: 0px;
+  font-size:15px;
+  color: aliceblue;
+  padding: 5px;
+  background-color: gray;
+}
+
+#video-control {
+  font-size:15px;
+  color: aliceblue;
+  padding: 5px;
+}
+
+#video-control > * {
+  font-size:15px;
+}
+
+#annos-control {
+  padding: 5px;
+}
+
+#annos-control > button {
+  font-size:20px;
+  border-width: 3px;
+}
